@@ -4,6 +4,7 @@ Some learning notes about ML.
 ## Binary Classification - [IMDb](https://ai.stanford.edu/~amaas/data/sentiment/) movie review dataset
 | Model            | accuracy            | loss                | f1                  |Code|
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
+|MLP|0.8741 (+/- 0.0099)|0.3006 (+/- 0.0118)|0.8727 (+/- 0.0070)|[mlp_binary_tf2.ipynb](Classification/binary/mlp_binary_tf2.ipynb)|
 | CNN              | 0.8775 (+/- 0.0076) | 0.3015 (+/- 0.0236) | 0.8749 (+/- 0.0081) |[cnn_binary_tf2.ipynb](Classification/binary/cnn_binary_tf2.ipynb)|
 | LSTM             | 0.8804 (+/- 0.0076) | 0.2938 (+/- 0.0122) | 0.8784 (+/- 0.0030) |[lstm_binary_tf2.ipynb](Classification/binary/lstm_binary_tf2.ipynb)|
 | CNN+LSTM         | 0.8868 (+/- 0.0051) | 0.2817 (+/- 0.0141) | 0.8817 (+/- 0.0040) |[cnn_lstm_binary_tf2.ipynb](Classification/binary/cnn_lstm_binary_tf2.ipynb)|
