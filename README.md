@@ -12,7 +12,7 @@ Some learning notes about ML.
 | BiLSTM           | 0.8832 (+/- 0.0046) | 0.2818 (+/- 0.0088) | 0.8806 (+/- 0.0061) |[bilstm_binary_tf2.ipynb](Classification/binary/bilstm_binary_tf2.ipynb)|
 | BiLSTM+Attention | 0.8848 (+/- 0.0052) | 0.2838 (+/- 0.0094) | 0.8804 (+/- 0.0021) |[bilstm_attention_binary_tf2.ipynb](Classification/binary/bilstm_attention_binary_tf2.ipynb)|
 | FastText         | 0.8913 (+/- 0.0038) | 0.2807 (+/- 0.0064) | 0.8872 (+/- 0.0008) |[fasttext_binary_tf2.ipynb](Classification/binary/fasttext_binary_tf2.ipynb)|
-| bert_en_uncased_L-4_H-512_A-8|Calculating|Calculating|Calculating|[bert_binary_tf2.ipynb](Classification/binary/bert_binary_tf2.ipynb)|
+| bert_en_uncased_L-4_H-512_A-8|0.8443 (+/- 0.0051)|0.3567 (+/- 0.0063)|0.8379 (+/- 0.0083)|[bert_binary_tf2.ipynb](Classification/binary/bert_binary_tf2.ipynb)|
 
 ## Requirements
 
