@@ -21,7 +21,7 @@ Some learning notes about ML.
 |CNN|0.8310 (+/- 0.0022)|0.5522 (+/- 0.0072)|0.8243 (+/- 0.0038)|[cnn_multiclass_tf2.ipynb](Classification/multiclass/cnn_multiclass_tf2.ipynb)|
 |bert-base-uncased|0.8622|0.4564|0.860|[bert_multiclass_tf2.ipynb](Classification/multiclass/bert_multiclass_tf2.ipynb)|
 
-# Named Entity Recognition - [GMB(Groningen Meaning Bank) corpus](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
+## Named Entity Recognition - [GMB(Groningen Meaning Bank) corpus](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
 
 | Model            | accuracy            | loss                | f1                  |Code|
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
