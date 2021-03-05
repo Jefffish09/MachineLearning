@@ -5,14 +5,21 @@ Some learning notes about ML.
 
 | Model            | accuracy            | loss                | f1                  |Code|
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
-|MLP|0.8741 (+/- 0.0099)|0.3006 (+/- 0.0118)|0.8727 (+/- 0.0070)|[mlp_binary_tf2.ipynb](Classification/binary/mlp_binary_tf2.ipynb)|
-| CNN              | 0.8753 (+/- 0.0043) | 0.2992 (+/- 0.0127) | 0.8778 (+/- 0.0043) |[cnn_binary_tf2.ipynb](Classification/binary/cnn_binary_tf2.ipynb)|
-| LSTM             | 0.8787 (+/- 0.0055) | 0.2953 (+/- 0.0132) | 0.8760 (+/- 0.0047) |[lstm_binary_tf2.ipynb](Classification/binary/lstm_binary_tf2.ipynb)|
-| CNN+LSTM         | 0.8844 (+/- 0.0083) | 0.2828 (+/- 0.0128) | 0.8816 (+/- 0.0041) |[cnn_lstm_binary_tf2.ipynb](Classification/binary/cnn_lstm_binary_tf2.ipynb)|
-| BiLSTM           | 0.8832 (+/- 0.0046) | 0.2818 (+/- 0.0088) | 0.8806 (+/- 0.0061) |[bilstm_binary_tf2.ipynb](Classification/binary/bilstm_binary_tf2.ipynb)|
-| BiLSTM+Attention | 0.8848 (+/- 0.0052) | 0.2838 (+/- 0.0094) | 0.8804 (+/- 0.0021) |[bilstm_attention_binary_tf2.ipynb](Classification/binary/bilstm_attention_binary_tf2.ipynb)|
-| FastText         | 0.8913 (+/- 0.0038) | 0.2807 (+/- 0.0064) | 0.8872 (+/- 0.0008) |[fasttext_binary_tf2.ipynb](Classification/binary/fasttext_binary_tf2.ipynb)|
-| bert_en_uncased_L-4_H-512_A-8|0.8443 (+/- 0.0051)|0.3567 (+/- 0.0063)|0.8379 (+/- 0.0083)|[bert_binary_tf2.ipynb](Classification/binary/bert_binary_tf2.ipynb)|
+|MLP|0.8737 (+/- 0.0024)|0.3006 (+/- 0.0049)|0.8747 (+/- 0.0032)|[mlp_binary_tf2.ipynb](Classification/binary/mlp_binary_tf2.ipynb)|
+| CNN              | 0.8739 (+/- 0.0030) | 0.3022 (+/- 0.0068) | 0.8754 (+/- 0.0051) |[cnn_binary_tf2.ipynb](Classification/binary/cnn_binary_tf2.ipynb)|
+| LSTM             | 0.8749 (+/- 0.0051) | 0.3030 (+/- 0.0096) | 0.8749 (+/- 0.0044) |[lstm_binary_tf2.ipynb](Classification/binary/lstm_binary_tf2.ipynb)|
+| CNN+LSTM         | 0.8815 (+/- 0.0027) | 0.2878 (+/- 0.0042) | 0.8815 (+/- 0.0032) |[cnn_lstm_binary_tf2.ipynb](Classification/binary/cnn_lstm_binary_tf2.ipynb)|
+| BiLSTM           | 0.8792 (+/- 0.0026) | 0.2883 (+/- 0.0036) | 0.8787 (+/- 0.0041) |[bilstm_binary_tf2.ipynb](Classification/binary/bilstm_binary_tf2.ipynb)|
+| BiLSTM+Attention | 0.8787 (+/- 0.0033) | 0.2901 (+/- 0.0062) | 0.8773 (+/- 0.0052) |[bilstm_attention_binary_tf2.ipynb](Classification/binary/bilstm_attention_binary_tf2.ipynb)|
+| FastText         | 0.8865 (+/- 0.0010) | 0.2841 (+/- 0.0008) | 0.8866 (+/- 0.0011) |[fasttext_binary_tf2.ipynb](Classification/binary/fasttext_binary_tf2.ipynb)|
+| bert_en_uncased_L-4_H-512_A-8|0.8404 (+/- 0.0066)|0.3591 (+/- 0.0052)|0.8331 (+/- 0.0098)|[bert_binary_tf2.ipynb](Classification/binary/bert_binary_tf2.ipynb)|
+
+## Multiclass Classification - [US Consumer Finance Complaints](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
+
+| Model            | accuracy            | loss                | f1                  |Code|
+| ---------------- | ------------------- | ------------------- | ------------------- |---|
+|CNN|0.8310 (+/- 0.0022)|0.5522 (+/- 0.0072)|0.8243 (+/- 0.0038)|[cnn_multiclass_tf2.ipynb](Classification/multiclass/cnn_multiclass_tf2.ipynb)|
+|bert-base-uncased|0.8622|0.4564|0.860|[bert_multiclass_tf2.ipynb](Classification/multiclass/bert_multiclass_tf2.ipynb)|
 
 ## Requirements
 
