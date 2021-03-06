@@ -26,6 +26,8 @@ Some learning notes about ML.
 | Model            | accuracy            | loss                | f1                  |Code|
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
 |BiLSTM|0.9968|0.0120|0.7886|[bilstm_ner_tf2.ipynb](NER/bilstm_ner_tf2.ipynb)|
+|bert-base-cased - pytorch|0.9626|0.1276|0.8263|[bert_ner_pytorch.ipynb](NER/bert_ner_pytorch.ipynb)|
+|bert-base-uncased - simpletransformers|<br>|0.1140|0.8313|[bert_ner_simpletransformers.ipynb](NER/bert_ner_simpletransformers.ipynb)|
 
 ## Requirements
 
