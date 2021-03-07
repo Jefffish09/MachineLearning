@@ -11,7 +11,7 @@ Some learning notes about ML.
 | CNN+LSTM         | 0.8815 (+/- 0.0027) | 0.2878 (+/- 0.0042) | 0.8815 (+/- 0.0032) |[cnn_lstm_binary_tf2.ipynb](Classification/binary/cnn_lstm_binary_tf2.ipynb)|
 | BiLSTM           | 0.8792 (+/- 0.0026) | 0.2883 (+/- 0.0036) | 0.8787 (+/- 0.0041) |[bilstm_binary_tf2.ipynb](Classification/binary/bilstm_binary_tf2.ipynb)|
 | BiLSTM+Attention | 0.8787 (+/- 0.0033) | 0.2901 (+/- 0.0062) | 0.8773 (+/- 0.0052) |[bilstm_attention_binary_tf2.ipynb](Classification/binary/bilstm_attention_binary_tf2.ipynb)|
-| FastText         | 0.8865 (+/- 0.0010) | 0.2841 (+/- 0.0008) | 0.8866 (+/- 0.0011) |[fasttext_binary_tf2.ipynb](Classification/binary/fasttext_binary_tf2.ipynb)|
+| FastText         | 0.8866 (+/- 0.0009) | 0.2842 (+/- 0.0008) | 0.8867 (+/- 0.0012) |[fasttext_binary_tf2.ipynb](Classification/binary/fasttext_binary_tf2.ipynb)|
 | bert_en_uncased_L-4_H-512_A-8|0.8404 (+/- 0.0066)|0.3591 (+/- 0.0052)|0.8331 (+/- 0.0098)|[bert_binary_tf2.ipynb](Classification/binary/bert_binary_tf2.ipynb)|
 
 ## Multiclass Classification - [US Consumer Finance Complaints](https://www.kaggle.com/cfpb/us-consumer-finance-complaints)
@@ -27,7 +27,7 @@ Some learning notes about ML.
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
 |BiLSTM|0.9968|0.0120|0.7886|[bilstm_ner_tf2.ipynb](NER/bilstm_ner_tf2.ipynb)|
 |bert-base-cased - pytorch|0.9626|0.1276|0.8263|[bert_ner_pytorch.ipynb](NER/bert_ner_pytorch.ipynb)|
-|bert-base-uncased - simpletransformers|<br>|0.1140|0.8313|[bert_ner_simpletransformers.ipynb](NER/bert_ner_simpletransformers.ipynb)|
+|bert-base-uncased - simpletransformers|0.9692|0.0994|0.8287|[bert_ner_simpletransformers.ipynb](NER/bert_ner_simpletransformers.ipynb)|
 
 ## Requirements
 
