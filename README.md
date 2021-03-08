@@ -5,6 +5,7 @@ Some learning notes about ML.
 
 | Model            | accuracy            | loss                | f1                  |Code|
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
+|RFC+TFIDF|0.8406|N/A|0.8406|[rfc_tfidf_binary_sklearn.ipynb](Classification/binary/rfc_tfidf_binary_sklearn.ipynb)|
 |MLP|0.8734 (+/- 0.0028)|0.2989 (+/- 0.0053)|0.8734 (+/- 0.0059)|[mlp_binary_tf2.ipynb](Classification/binary/mlp_binary_tf2.ipynb)|
 | CNN              | 0.8737 (+/- 0.0045) | 0.2997 (+/- 0.0107) | 0.8745 (+/- 0.0039) |[cnn_binary_tf2.ipynb](Classification/binary/cnn_binary_tf2.ipynb)|
 | LSTM             | 0.8754 (+/- 0.0035) | 0.3043 (+/- 0.0125) | 0.8753 (+/- 0.0047) |[lstm_binary_tf2.ipynb](Classification/binary/lstm_binary_tf2.ipynb)|
@@ -20,6 +21,7 @@ Some learning notes about ML.
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
 |CNN|0.8317 (+/- 0.0042)|0.5488 (+/- 0.0097)|0.8252 (+/- 0.0062)|[cnn_multiclass_tf2.ipynb](Classification/multiclass/cnn_multiclass_tf2.ipynb)|
 |bert-base-uncased|0.8632|0.4689|0.8611|[bert_multiclass_tf2.ipynb](Classification/multiclass/bert_multiclass_tf2.ipynb)|
+|albert-base-v1|0.8572|0.5220|0.8543|[albert_multiclass_simpletransformers.ipynb](Classification/multiclass/albert_multiclass_simpletransformers.ipynb)|
 
 ## Named Entity Recognition - [GMB(Groningen Meaning Bank) corpus](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
 
