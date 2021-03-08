@@ -7,6 +7,7 @@ Some learning notes about ML.
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
 |RFC+TFIDF|0.8406|N/A|0.8406|[rfc_tfidf_binary_sklearn.ipynb](Classification/binary/rfc_tfidf_binary_sklearn.ipynb)|
 |MLP|0.8734 (+/- 0.0028)|0.2989 (+/- 0.0053)|0.8734 (+/- 0.0059)|[mlp_binary_tf2.ipynb](Classification/binary/mlp_binary_tf2.ipynb)|
+|MLP+TFIDF|0.8775 (+/- 0.0018)|0.2876 (+/- 0.0028)|0.8782 (+/- 0.0025)|[mlp_tfidf_binary_tf2.ipynb](Classification/binary/mlp_tfidf_binary_tf2.ipynb)|
 | CNN              | 0.8737 (+/- 0.0045) | 0.2997 (+/- 0.0107) | 0.8745 (+/- 0.0039) |[cnn_binary_tf2.ipynb](Classification/binary/cnn_binary_tf2.ipynb)|
 | LSTM             | 0.8754 (+/- 0.0035) | 0.3043 (+/- 0.0125) | 0.8753 (+/- 0.0047) |[lstm_binary_tf2.ipynb](Classification/binary/lstm_binary_tf2.ipynb)|
 | CNN+LSTM         | 0.8824 (+/- 0.0027) | 0.2863 (+/- 0.0051) | 0.8832 (+/- 0.0032) |[cnn_lstm_binary_tf2.ipynb](Classification/binary/cnn_lstm_binary_tf2.ipynb)|
