@@ -19,7 +19,7 @@ Some learning notes about ML.
 | Model            | accuracy            | loss                | f1                  |Code|
 | ---------------- | ------------------- | ------------------- | ------------------- |---|
 |CNN|0.8317 (+/- 0.0042)|0.5488 (+/- 0.0097)|0.8252 (+/- 0.0062)|[cnn_multiclass_tf2.ipynb](Classification/multiclass/cnn_multiclass_tf2.ipynb)|
-|bert-base-uncased|0.8635|0.4603|0.8620|[bert_multiclass_tf2.ipynb](Classification/multiclass/bert_multiclass_tf2.ipynb)|
+|bert-base-uncased|0.8632|0.4689|0.8611|[bert_multiclass_tf2.ipynb](Classification/multiclass/bert_multiclass_tf2.ipynb)|
 
 ## Named Entity Recognition - [GMB(Groningen Meaning Bank) corpus](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus)
 
